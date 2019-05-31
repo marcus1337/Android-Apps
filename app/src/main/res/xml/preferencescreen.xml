@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <Preference android:title="-----BUTTON-----"
+        android:key="prefBtn"
+        android:background="#041A37"
+        android:textColor="#00FF00"
+        android:summary="Save and go back"
+        android:layout="@layout/pref_btn_lay"
+        />
+
+    <PreferenceCategory
+        android:key="pref_key_storage_settings"
+        android:title="level 1">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="swi1"
+            android:title="use this level" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_storage_settings"
+        android:title="level 2">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="swi2"
+            android:title="use this level" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="pref_key_storage_settings"
+        android:title="level 3">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="swi3"
+            android:title="use this level" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

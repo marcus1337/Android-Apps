@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Nine Men Morris</string>
+    <string name="pref_sync">test123</string>
+    <string name="pref_sync_summ">test</string>
+    <string name="pref_syncConnectionType">test</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2455620344756383/1243557152</string>
+
+    <string-array name="listArray">
+        <item>Normal</item>
+        <item>Diagonal1</item>
+        <item>Diagonal2</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>Normal</item>
+        <item>Diagonal1</item>
+        <item>Diagonal2</item>
+    </string-array>
+
+    <array name="random_imgs">
+        <item>@drawable/lev1</item>
+        <item>@drawable/lev2</item>
+        <item>@drawable/lev3</item>
+    </array>
+
+</resources>

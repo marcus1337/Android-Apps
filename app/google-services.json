@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "772742739338",
+    "firebase_url": "https://morris-97fbf.firebaseio.com",
+    "project_id": "morris-97fbf",
+    "storage_bucket": "morris-97fbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772742739338:android:a1c0d84474b332fa",
+        "android_client_info": {
+          "package_name": "test.morris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772742739338-9eht8n2jo543qpjq1n60028tfh9tnd5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.morris",
+            "certificate_hash": "009dc66e98a12d81f302bceb22b6f25ef8578596"
+          }
+        },
+        {
+          "client_id": "772742739338-k3k6n54203baigh6chnkqih8u94nq0pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeVD-bqf5Yv5ZGLCqtaKtTT-8C_9ckcPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772742739338-k3k6n54203baigh6chnkqih8u94nq0pf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content" android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <TableRow android:layout_width="fill_parent"
+        android:id="@+id/TableRow01"
+        android:layout_height="wrap_content">
+
+        <TextView android:textColor="#0F7030"
+            android:id="@+id/id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="id" android:textStyle="bold"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:typeface="monospace"
+            android:height="40sp" />
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:text="Delete" />
+
+    </TableRow>
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView android:textColor="#0F7030"
+            android:id="@+id/categoryId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="categoryId"
+            android:layout_weight="1"
+            android:height="20sp" />
+
+    </TableRow>
+
+    <test.morris.CONTROLLER.BOARDCONTROLLER.CustomBoard
+        android:layout_width="194dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/lev1"
+        android:id="@+id/imageView1"
+        android:layout_below="@+id/TableRow01" />
+
+</LinearLayout>
