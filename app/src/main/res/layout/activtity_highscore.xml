@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa958f3f"
+    >
+
+    <TextView
+        android:id="@+id/ascore1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="scoress"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/highscoreHeader2"
+        android:layout_alignLeft="@+id/ascore2"
+        android:layout_alignStart="@+id/ascore2"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/ascore2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="scoress"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/ascore1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/ascore3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="scoress"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/ascore2"
+        android:layout_alignLeft="@+id/ascore2"
+        android:layout_alignStart="@+id/ascore2" />
+
+    <TextView
+        android:id="@+id/ascore4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="scoress"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/ascore3"
+        android:layout_alignLeft="@+id/ascore3"
+        android:layout_alignStart="@+id/ascore3"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/ascore5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="scoress"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/ascore4"
+        android:layout_alignLeft="@+id/ascore4"
+        android:layout_alignStart="@+id/ascore4"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/highscoreHeader2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Highscores"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <ImageButton
+        android:id="@+id/continuescoresbtn2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@drawable/continuu"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+
+</RelativeLayout>

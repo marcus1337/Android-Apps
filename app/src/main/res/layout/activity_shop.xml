@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shopback">
+
+    <Button
+        android:id="@+id/shopbackbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="BACK"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/shopremoveadsbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shopbackbtn"
+        android:layout_marginTop="137dp"
+        android:text="Remove ads"
+        android:layout_alignRight="@+id/shopextralivesbtn"
+        android:layout_alignEnd="@+id/shopextralivesbtn"
+        android:layout_alignLeft="@+id/shopextralivesbtn"
+        android:layout_alignStart="@+id/shopextralivesbtn" />
+
+    <Button
+        android:id="@+id/shopextralivesbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shopremoveadsbtn"
+        android:layout_marginTop="38dp"
+        android:text="EXTRA LIVES"
+        android:layout_alignRight="@+id/shoprestorepurchasesbtn"
+        android:layout_alignEnd="@+id/shoprestorepurchasesbtn"
+        android:layout_alignLeft="@+id/shoprestorepurchasesbtn"
+        android:layout_alignStart="@+id/shoprestorepurchasesbtn" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/shopextralivesbtn"
+        android:layout_alignLeft="@+id/shopextralivesbtn"
+        android:layout_alignRight="@+id/shopextralivesbtn"
+        android:layout_alignStart="@+id/shopextralivesbtn"
+        android:layout_below="@+id/shopextralivesbtn"
+        android:text="Start new games with more lives than normal"
+        android:textAlignment="center"
+        android:textColor="#9af04306"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shoprestorepurchasesbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restore Purchases"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp" />
+</RelativeLayout>

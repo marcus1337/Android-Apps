@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "394551213598",
+    "firebase_url": "https://areashifter.firebaseio.com",
+    "project_id": "areashifter",
+    "storage_bucket": "areashifter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394551213598:android:d911669b2fc52d6d",
+        "android_client_info": {
+          "package_name": "com.fullrune.areashifter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394551213598-bg2lfgv97i4ehm0undva3i70opr43mbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fullrune.areashifter",
+            "certificate_hash": "009dc66e98a12d81f302bceb22b6f25ef8578596"
+          }
+        },
+        {
+          "client_id": "394551213598-ij1to685ro11crf9oqqe4gujqde5j9qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnlYwwvrouSWWm7VA5828MN4KA4gSt5l8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394551213598-ij1to685ro11crf9oqqe4gujqde5j9qh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

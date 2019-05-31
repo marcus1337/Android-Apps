@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CONTROLLER.ACTIVITIES.MainActivity"
+    android:background="@drawable/space33"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/resumeButton"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:text="Resume"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/newgameButton"
+        android:layout_alignLeft="@+id/newgameButton"
+        android:layout_alignStart="@+id/newgameButton" />
+
+    <Button
+        android:id="@+id/newgameButton"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:text="New Game"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/storeButton"
+        android:layout_alignLeft="@+id/storeButton"
+        android:layout_alignStart="@+id/storeButton" />
+
+    <Button
+        android:id="@+id/storeButton"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:text="Store"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/highscoreButton"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/storeButton"
+        android:layout_alignStart="@+id/storeButton"
+        android:layout_below="@+id/storeButton"
+        android:layout_marginTop="10dp"
+        android:text="Highscores" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Area Shifter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#003399"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_above="@+id/resumeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Area Shifter</string>
+    <string name="name_hint">&lt;Insert Name&gt;</string>
+
+</resources>
